@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
  
 const app = express()
 
-
+const login=require("./namepassword")
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 

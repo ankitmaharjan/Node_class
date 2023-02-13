@@ -19,7 +19,7 @@ const httpStatus = require("http-status");
         }
     }
     namepassword.loginValidation=(request)=>{
-    if (request.username=='kapil' && request.password == 'kapil123'){
+    if (request.username=='ankit' && request.password == 'ankit123'){
             return true;
         }
         return false;
